@@ -1,3 +1,13 @@
+/*GENERAL*/
+
+*{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: #6c7b84;
@@ -16,15 +26,22 @@ body{
     margin-top: 38px;
     margin-bottom: 19px;
 }
+
+/*FINAL GENERAL*/
+
+/*COMIENZO CUERPO PRINCIPAL*/
+
 .principal{
     width: 800px;
     margin: auto;
     background-color: #fff;
     padding:15px;
     border-radius: 15px 15px 0px 0px;
-    height: 850px;
+    height: 650px;
     margin-bottom: 0px;
 }
+
+/*COMIENZO HEADER*/
 
 .cabecera{
     height: auto;
@@ -54,6 +71,7 @@ body{
     margin-top: -140px;
 }
 
+/*MENU*/
 .menu{
     height: 26px;
     background-image: url(img/fondomenu.jpg);
@@ -77,18 +95,25 @@ body{
     height: auto;
 }
 
-.trabajos{
+/*FINAL MENU*/
+/*FINAL HEADER*/
+
+/*SECCION ULTIMOS TRABAJOS*/
+
+.ultimosTrabajos{
     
     float: left;
     width: 65%;
 }
+
+/*NOTICIAS*/
 
 .noticia{
     border-top: 1px solid #5a5f62;
     padding-left: 8px;
 }
 
-.nTitulo{
+h3{
     color: #0092c5;
     font-size: 18px;
     padding-top: 10px;
@@ -100,6 +125,9 @@ time{
     color: #7dd0f0;
 }
 
+/*FIN NOTICIAS*/
+
+/*ASIDE*/
 aside{
 
     float: right;
@@ -117,6 +145,10 @@ h2{
     padding-left: 8px;
 
 }
+/*FIN ASIDE*/
+
+/*SECCION GALERIA*/
+
 .galeria article{
     width: 33%;
     float: left;
@@ -133,10 +165,26 @@ h2{
     margin-top: 15px;
     float: right;
 }
+/*FOOTER*/
 
 footer{
-    margin-top: 0px;
-    height: auto;
-    width: 100%;
-    margin-bottom: 0px;
+    text-align: center;
+    color: gray;
+
+}
+footer a{
+    padding-top: 3px;
+    color: gray;
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+footer a+a{
+    padding-left: 10px;
+    border-left: 1px solid gray;
+}
+footer p{
+    padding-top: 3px;
+    padding-right:20px ;
+    display: inline-block;
 }
