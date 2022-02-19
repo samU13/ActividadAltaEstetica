@@ -83,7 +83,7 @@ body{
 /*MENU*/
 .menu{
     height: 26px;
-    background-image: url(img/fondomenu.jpg);
+    background: linear-gradient(to bottom,#f4f8f9 , #ddecef, #9ecde1 );
     list-style: none;
     margin: 0px 15px;
 }
