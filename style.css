@@ -280,8 +280,8 @@ table tr th{
     padding:10px 8px;
 }
 
-table tr td{
-    margin: 8px;
+td{
+    padding: 8px 10px;
 }
 
 .botonTabla{
