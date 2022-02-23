@@ -34,9 +34,9 @@ body{
     margin-left: 28%;
     margin-top: 38px;
     margin-bottom: 19px;
-    -webkit-animation: lOpacity 2s 1s 4 alternate;
-    -moz-animation: lOpacity 2s 1s 4 alternate;
-    animation: lOpacity 2s 1s 4 alternate;
+    -webkit-animation: lOpacity 1s 1s 4 alternate;
+    -moz-animation: lOpacity 1s 1s 4 alternate;
+    animation: lOpacity 1s 1s 4 alternate;
     
 }
 
@@ -209,6 +209,15 @@ aside{
 .privada{
     height: 57px;
     overflow: hidden;
+}
+.privada a img{
+    -webkit-transition: transform 1s ease-in-out;
+    -moz-transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+
+.privada a img:hover{
+    transform :translateY(-58px);
 }
 
 /*FIN ASIDE*/
