@@ -34,7 +34,24 @@ body{
     margin-left: 28%;
     margin-top: 38px;
     margin-bottom: 19px;
+    -webkit-animation: lOpacity 2s 1s 4 alternate;
+    -moz-animation: lOpacity 2s 1s 4 alternate;
+    animation: lOpacity 2s 1s 4 alternate;
+    
 }
+
+@-webkit-keyframes lOpacity{
+    from { opacity:100% ; }
+    to { opacity: 0%; }
+  }
+  @-moz-keyframes lOpacity {
+    from { opacity:100% ; }
+    to { opacity: 0%; }
+  }
+  @keyframes lOpacity {
+    from { opacity:100% ; }
+    to { opacity: 0%; }
+  }
 
 /*FINAL GENERAL*/
 
@@ -45,7 +62,7 @@ body{
     margin: auto;
     background-color: #fff;
     padding:15px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 15px 15px 0px 0px / 20px 20px 0px 0px;
     /*height: 90vh;*/
     height: auto;
     margin-bottom: 0px;
@@ -180,7 +197,6 @@ h2{
 
 /*ASIDE*/
 aside{
-
     float: right;
     width: 230px;
     margin-top: 36px;
